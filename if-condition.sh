@@ -46,8 +46,8 @@
 
 a=10
 if [ $a -gt 100 ]; then
-  a is greather than 100
+  echo a is greather than 100
 else
-  a is less than 100
+  echo a is less than 100
 fi
 
