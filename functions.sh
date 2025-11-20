@@ -11,3 +11,7 @@ sample
 source common.sh
 sample1
 
+# Access variables across functions.
+a=10
+sample2
+echo b - $b
