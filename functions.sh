@@ -20,6 +20,9 @@
 
 sample() {
   echo x - $x
+}
+
+sample1() {
   echo First argument - $1
   echo Second argument - $2
   echo All argument - $*
@@ -37,5 +40,5 @@ sample
 x=100 sample
 x=200 sample
 
-sample 1000 2000
+sample1 1000 2000
 
