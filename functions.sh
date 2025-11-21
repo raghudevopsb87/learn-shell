@@ -20,6 +20,11 @@
 
 sample() {
   echo x - $x
+  echo First argument - $1
+  echo Second argument - $2
+  echo All argument - $*
+  echo No of arguments - $#
+
 }
 
 x=10
@@ -32,4 +37,5 @@ sample
 x=100 sample
 x=200 sample
 
+sample 1000 2000
 
