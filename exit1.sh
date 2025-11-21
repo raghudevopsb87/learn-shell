@@ -1,3 +1,3 @@
 echo Hello World
-exit
+exit 1
 echo Last World
